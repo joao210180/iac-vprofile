@@ -35,8 +35,8 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v4  # Corrigido nome da action
 
-      - name: Setup Terraform with Specified Version
-        uses: hashicorp/setup-terraform@v4
+      - name: HashiCorp - Setup Terraform
+        uses: hashicorp/setup-terraform@v3.1.2
         # with:
         #   terraform_version: 1.6.3 -- para comit
 
