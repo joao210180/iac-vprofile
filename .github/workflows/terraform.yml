@@ -25,7 +25,7 @@ jobs:
     env:
       # Credenciais para implantação na AWS
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  # Corrigido o nome da variável
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}  # Corrigido o nome da variável
       # S3 bucket para armazenar o estado do Terraform
       BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }}
       AWS_REGION: us-east-1
