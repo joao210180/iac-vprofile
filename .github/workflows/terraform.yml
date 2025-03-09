@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v4  # Corrigido nome da action
+        uses: actions/checkout@v4  # Corrigido nome da action 55
 
       - name: HashiCorp - Setup Terraform
         uses: hashicorp/setup-terraform@v4
